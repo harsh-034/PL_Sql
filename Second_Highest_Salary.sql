@@ -64,7 +64,19 @@ SELECT (
 
 /* 
 
+Intuition
+ther are use in by the way i will use LIMIT and OFFSET becouse offset are use for skip the number
 
+Approach
+SELECT DISTINCT salary FROM Employee this line are use for pick unique salary from Employee. then ORDER BY salary DESC it is use for salary short highest to lowest and lest line LIMIT 1 their are use for pick the second row and OFFSET 1 they minds ther are use for skip number because i did use for number 1 are skip
+
+Complexity
+Time complexity:
+O(n+mlogm)(≈ O(n log n) in worst case)
+
+Space complexity:
+O(m) additional space for distinct salaries storage.
+No extra space for the final result (only 1 value is returned).
 
 */
 
