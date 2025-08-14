@@ -1,5 +1,5 @@
 --Second Highest Salary
-
+--Link Leetcode : https://leetcode.com/problems/second-highest-salary/solutions/7081370/second-highest-salary-by-harshgupta00034-98az/
 /* 
 Questions 
 
